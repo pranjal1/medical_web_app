@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#004d40</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="but_bg">#e0e0e0</color>
+    <color name="colorAccent">#D50000</color>
+    <color name="redForError">#ff0000</color>
+    <color name="bg">#004d40</color>
+    <color name="ripplecolor">#b6b6b6</color>
+</resources>

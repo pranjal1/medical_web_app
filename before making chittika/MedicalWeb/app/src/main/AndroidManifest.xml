@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pranjal.medicalweb" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Profession"
+            android:label="@string/profession" >
+            <intent-filter>
+                <action android:name="MedicalWeb.profession" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Signup_details"
+            android:label="@string/filldetail" >
+            <intent-filter>
+                <action android:name="MedicalWeb.signupdetails" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Category"
+            android:label="@string/select_cat" >
+            <intent-filter>
+                <action android:name="MedicalWeb.category" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login_details"
+            android:label="@string/filldetails" >
+            <intent-filter>
+                <action android:name="MedicalWeb.logindetails" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Create_case"
+            android:label="@string/createcase" >
+            <intent-filter>
+                <action android:name="MedicalWeb.createcase" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Search_friends"
+            android:label="@string/searchfriend" >
+            <intent-filter>
+                <action android:name="MedicalWeb.searchfriends" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Load_friend"
+            android:label="@string/searchfriend"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="MedicalWeb.loadfriends" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Navdrawer"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="MedicalWeb.navpg" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Myfriendslist"
+            android:label="My friends" >
+            <intent-filter>
+                <action android:name="MedicalWeb.myfriendslist" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Loadaddedfriends"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="MedicalWeb.loadaddedfriends" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Display_cases"
+            android:label="My cases" >
+            <intent-filter>
+                <action android:name="MedicalWeb.displaycases" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Load_my_cases"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="MedicalWeb.loadmycases" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Case_details"
+            android:label="Case Details">
+            <intent-filter>
+                <action android:name="MedicalWeb.showcasedetails" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Load_case_details"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="MedicalWeb.loadcasedetails" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

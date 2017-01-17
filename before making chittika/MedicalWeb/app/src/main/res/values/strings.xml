@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">MedicalWeb</string>
+    <string name="sign_up">SignUp!</string>
+    <string name="log_in">LogIn!</string>
+    <string name="medical">Medical</string>
+    <string name="nonmedical">NonMedical</string>
+    <string name="intern">Intern</string>
+    <string name="student">Student</string>
+    <string name="teacher">Teacher</string>
+    <string name="medical_prof">Medical Profession</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="institution">Institution</string>
+    <string name="phno">Phone no.</string>
+    <string name="submit">Submit</string>
+    <string name="select_cat">Select Category</string>
+    <string name="profession">Profession</string>
+    <string name="filldetail">Details</string>
+    <string name="loggedin">Logged In</string>
+    <string name="filldetails">Details</string>
+    <string name="typename">Type your name</string>
+    <string name="typeemail">Type your email id</string>
+    <string name="typeins">Current Institution</string>
+    <string name="typeph">Phone Number</string>
+    <string name="enterPassword">Enter Password (alphanumeric)</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="phonetext">Your current phone</string>
+    <string name="please_prompt">Please fill in the following form to proceed</string>
+    <string name="atleastsix">Atleast 6 characters</string>
+    <string name="createcase">Create case</string>
+    <string name="patientTitle">Title</string>
+    <string name="patientName">Patient name</string>
+    <string name="patientAge">Age</string>
+    <string name="patientSex">Sex</string>
+    <string name="patientWeight">Weight</string>
+    <string name="patientAddress">Address</string>
+    <string name="patientComp">Chief Complaints</string>
+    <string name="patientVitals">Vitals/General Examination</string>
+    <string name="patientOnExam">On Examination</string>
+    <string name="patientAssessment">Assessment</string>
+    <string name="patientDiag">Provisional diagnosis</string>
+    <string name="patientPlan">Plan</string>
+    <string name="click_prompt">Click on the name you want to add as friend on the list</string>
+    <string name="searchfriend">Search Friends</string>
+    <string-array name="drawer_list">
+        <item>My profile</item>
+        <item>Create Case</item>
+        <item>My friends</item>
+        <item>Add friends</item>
+        <item>My cases</item>
+        <item>Share cases</item>
+        <item>news</item>
+    </string-array>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+</resources>
